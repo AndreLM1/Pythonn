@@ -39,3 +39,10 @@
 # print('A soma de todos os número pares é: {}'.format(soma))
 
 #Desafio 51
+# num= int(input('Primeiro termo da p.a: '))
+# razao= int(input('Razão da p.a: '))
+# decimo= num + (10-1)* razao
+# for c in range (num, decimo+1, razao):
+#     print('{}'.format(c), end=' -> ')
+# print('Acabou!')
+ 
