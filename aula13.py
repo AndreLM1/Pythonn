@@ -45,4 +45,19 @@
 # for c in range (num, decimo+1, razao):
 #     print('{}'.format(c), end=' -> ')
 # print('Acabou!')
- 
+
+#Desafio 52
+# num= int(input('Digite um número: '))
+# cont= 0
+# for c in range(1, num+1):
+#     if num % c == 0:
+#         cont= cont + 1
+#         print('\033[34m', end=' ')
+#     else:
+#         print('\033[m', end=' ')
+#     print('{}'.format(c),'\033[m', end='')
+# if cont > 2:
+    
+#     print('\nO valor digitado não é um número primo, ele foi dividido {} vezes'.format(cont))
+# elif cont == 2:
+#     print('\nO valor digitado é um número primo, ele foi dividido {} vezes'.format(cont))
