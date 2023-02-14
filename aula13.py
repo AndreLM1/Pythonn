@@ -139,4 +139,5 @@
 # print('A média de idade do grupo é {}'.format(media))
 # print('{} é o homem mais velho com {}'.format(velho, maior))
 # print('Há {} mulheres com menos de 20 anos'.format(cont))
+
     
