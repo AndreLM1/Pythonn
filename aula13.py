@@ -73,3 +73,70 @@
 #     print('A frase {} é um palíndromo {}'.format(junto, inverso))
 # else:
 #     print('{} não é um palíndromo {}'.format(junto, inverso))
+
+#Desafio 54
+#from datetime import date
+# atual= date.today().year
+# maior= 0
+# menor= 0
+# pessoa=0
+# for c in range(0, 7):
+#     pessoa+= 1
+#     nascimento= int(input('Ano de nascimento da pessoa {}: '.format(pessoa)))
+#     idade= atual - nascimento
+#     if idade >= 21:
+#         maior+= 1
+#     else:
+#         menor+= 1
+# print('Há {} pessoas maiores de idade'.format(maior))
+# print('Há {} pessoas menores de idade'.format(menor))
+
+#Desafio 55
+# pessoa= 0
+# maior= 0 
+# menor= 100000
+# for c in range(1,6):
+#     pessoa+= 1
+#     peso= float(input('Peso da pessoa {}: '.format(pessoa)))
+#     if peso== 1:
+#         maior= peso
+#         menor= peso
+#     else:
+#         if maior < peso:
+#             maior= peso
+#         if menor > peso:
+#             menor= peso
+# print('O maior peso é {}kg, e o menor é {}kg'.format(maior, menor))
+
+#Desafio 56
+# pessoa= 0
+# soma= 0
+# maior= 0
+# cont= 0
+# for c in range(1,5):
+#     pessoa+= 1
+#     nome= str(input('Nome da {}º pessoa: '.format(pessoa)))
+#     idade= int(input('Idade da {}º pessoa: '.format(pessoa)))
+#     sexo= str(input('Sexo (M/F) da {}º pessoa: '.format(pessoa))).upper()
+#     print('\n')
+#     soma += idade
+#     if sexo == 'M':
+#         if c == 1:
+#             maior= idade
+#             velho= nome
+#         else:
+#             if maior < idade:
+#                 maior = idade
+#                 velho = nome
+#     elif sexo== 'F':
+#         if idade < 20:
+#             cont += 1
+#         else:
+#             print('Não há mulheres com menos que 20 anos ')
+
+
+# media= soma/c
+# print('A média de idade do grupo é {}'.format(media))
+# print('{} é o homem mais velho com {}'.format(velho, maior))
+# print('Há {} mulheres com menos de 20 anos'.format(cont))
+    
