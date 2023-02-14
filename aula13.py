@@ -61,3 +61,15 @@
 #     print('\nO valor digitado não é um número primo, ele foi dividido {} vezes'.format(cont))
 # elif cont == 2:
 #     print('\nO valor digitado é um número primo, ele foi dividido {} vezes'.format(cont))
+
+#Desafio 53
+# frase= str(input('Digite uma frase: ')).strip().upper() #strip tira os espaços do inicio e do final ; upper deixa tudo em maíusculo
+# palavra= frase.split() #separando as palavras da frase
+# junto= ''.join(palavra) #juntando as palavras sem espaço entre elas
+# inverso= ''
+# for letra in range(len(junto) -1, -1, -1):
+#     inverso= inverso + junto[letra]
+# if inverso == junto:
+#     print('A frase {} é um palíndromo {}'.format(junto, inverso))
+# else:
+#     print('{} não é um palíndromo {}'.format(junto, inverso))
