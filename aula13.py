@@ -38,7 +38,7 @@
 
 # print('A soma de todos os número pares é: {}'.format(soma))
 
-#Desafio 51
+# Desafio 51
 # num= int(input('Primeiro termo da p.a: '))
 # razao= int(input('Razão da p.a: '))
 # decimo= num + (10-1)* razao
@@ -46,7 +46,7 @@
 #     print('{}'.format(c), end=' -> ')
 # print('Acabou!')
 
-#Desafio 52
+# Desafio 52
 # num= int(input('Digite um número: '))
 # cont= 0
 # for c in range(1, num+1):
@@ -57,7 +57,7 @@
 #         print('\033[m', end=' ')
 #     print('{}'.format(c),'\033[m', end='')
 # if cont > 2:
-    
+
 #     print('\nO valor digitado não é um número primo, ele foi dividido {} vezes'.format(cont))
 # elif cont == 2:
 #     print('\nO valor digitado é um número primo, ele foi dividido {} vezes'.format(cont))
