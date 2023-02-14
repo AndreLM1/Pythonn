@@ -8,4 +8,3 @@
 # nome= 'André'
 # cores={'Limpa':'\033[m','Azul':'\033[36m','PretoeBranco':'\033[7;37m'}
 # print('\033[mOlá {}{}{}, prazer em te conhecer!'.format(cores['PretoeBranco'],nome,cores['Limpa']))
-
