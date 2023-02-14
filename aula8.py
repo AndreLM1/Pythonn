@@ -27,4 +27,3 @@
 #lista=[a1, a2, a3]
 #escolha= random.choice(lista)
 #print('O aluno (a) escolhido foi {}'.format(escolha))
-
