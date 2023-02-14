@@ -7,5 +7,3 @@ print(n1.isalpha())
 
 print( 'O valor digitado eh  um numero com caracter?   ')
 print(n1.isalnum())
-
-
