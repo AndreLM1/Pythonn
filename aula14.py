@@ -90,5 +90,28 @@
 # print('''Você digitou {} números
 # A soma entre eles é {}'''.format(cont, soma))
 
+#Desafio 65
+# maior= cont = soma=0
+# menor=100000
+# x= 'S'
+# while x == 'S':    
+#     n= int(input('Digite um valor inteiro: '))
+#     x= str(input('Deseja continuar com o programa [S/N]? ')).upper()
+#     cont += 1
+#     soma += n
+#     med= soma /cont 
+
+#     if n > maior:
+#         maior = n
+#     if n < menor:
+#         menor = n
+# print('''Maior número: {}
+# Menor número: {}
+# Média dos números digitados: {}'''.format(maior, menor,med))
+
+
+
+
+
 
 
