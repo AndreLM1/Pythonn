@@ -81,7 +81,47 @@
 # Há {} mulheres com menos de 20 anos'''.format(maior, homens, mulheres))
 
 #Desafio 70
-    
+# cont= total= 0
+# menor= 10000000
+# encerramento= produto= ''
+# while True:
+#     nome= str(input('\033[mDigite o nome do produto: \033[34m'))
+#     preco= float(input('\033[mDigite o preço: R$ \033[34m'))
+#     if preco < menor:
+#         menor= preco
+#         produto= nome 
+#     if preco < 1000:
+#         cont += 1
+#     total += preco
+#     encerramento= str(input('\033[m Quer encerrar a compra [S/N]? ')).upper()
+#     while encerramento not in 'SsNn':
+#         encerramento= str(input('Quer encerrar a compra [S/N]? ')).upper()
+#     if encerramento == 'S':
+#         break
+# print('''\nTotal da compra \033[34mR${}
+# \033[mHá \033[34m{}\033[m produtos que custam menos de R$1000
+# O produto mais barato é o \033[34m{}\033[m '''.format(total, cont, produto))
+
+#Desafio 71
+# saque= float(input('Quanto você quer sacar? R$'))
+# total= saque
+# cedula= 50
+# totalced = 0
+# while True:
+#     if total >= cedula:
+#         total -= cedula
+#         totalced += 1
+#     else:
+#         print('Você receberá {} cédulas  de R${}'.format(totalced, cedula))
+#         if cedula == 50:
+#             cedula= 20
+#         elif cedula == 20:
+#             cedula= 10
+#         elif cedula == 10:
+#             cedula= 1
+#         totalced = 0
+#         if total == 0:
+#             break
 
 #Desafio Extra
 # import random
